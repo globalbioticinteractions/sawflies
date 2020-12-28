@@ -1,0 +1,191 @@
+{
+  "@context" : [ "http://www.w3.org/ns/csvw", {
+    "@language" : "en"
+  } ],
+  "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+  "tables" : [ {
+    "@context" : [ "http://www.w3.org/ns/csvw", {
+      "@language" : "en"
+    } ],
+    "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+    "url" : "file:///home/jorrit/proj/globi/data/sawflies/Symphyta-larval-foodplants-latest-version.csv",
+    "dcterms:bibliographicCitation" : "Andrew J Green. 2020. Larval Foodplants of British and Irish Sawflies. Accessed via https://www.sawflies.org.uk/wp-content/uploads/2019/04/Symphyta-larval-foodplants-latest-version.xlsx on 2020-12-28.",
+    "delimiter" : ",",
+    "headerRowCount" : 1,
+    "interactionTypeName": "eats",
+    "interactionTypeId": "http://purl.obolibrary.org/obo/RO_0002470",
+    "sourceLifeStageName": "larva",
+    "null" : [ "" ],
+    "tableSchema" : {
+      "columns" : [ {
+        "name" : "formerly",
+        "titles" : "formerly",
+        "datatype" : "string"
+      }, {
+        "name" : "souceTaxonFamily",
+        "titles" : "Family",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonName",
+        "titles" : "2014 Checklist Species",
+        "datatype" : "string"
+      }, {
+        "name" : "Authority",
+        "titles" : "Authority",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonName",
+        "titles" : "FOODPLANT",
+        "datatype" : "string"
+      }, {
+        "name" : "1",
+        "titles" : "1",
+        "datatype" : "string"
+      }, {
+        "name" : "2",
+        "titles" : "2",
+        "datatype" : "string"
+      }, {
+        "name" : "3",
+        "titles" : "3",
+        "datatype" : "string"
+      }, {
+        "name" : "4",
+        "titles" : "4",
+        "datatype" : "string"
+      }, {
+        "name" : "5",
+        "titles" : "5",
+        "datatype" : "string"
+      }, {
+        "name" : "6",
+        "titles" : "6",
+        "datatype" : "string"
+      }, {
+        "name" : "7",
+        "titles" : "7",
+        "datatype" : "string"
+      }, {
+        "name" : "8",
+        "titles" : "8",
+        "datatype" : "string"
+      }, {
+        "name" : "9",
+        "titles" : "9",
+        "datatype" : "string"
+      }, {
+        "name" : "10",
+        "titles" : "10",
+        "datatype" : "string"
+      }, {
+        "name" : "11",
+        "titles" : "11",
+        "datatype" : "string"
+      }, {
+        "name" : "12",
+        "titles" : "12",
+        "datatype" : "string"
+      }, {
+        "name" : "gen",
+        "titles" : "gen",
+        "datatype" : "string"
+      }, {
+        "name" : "HABIT",
+        "titles" : "HABIT",
+        "datatype" : "string"
+      }, {
+        "name" : "Notes",
+        "titles" : "Notes",
+        "datatype" : "string"
+      }, {
+        "name" : "Cameron synonym",
+        "titles" : "Cameron synonym",
+        "datatype" : "string"
+      }, {
+        "name" : "NOTES",
+        "titles" : "NOTES",
+        "datatype" : "string"
+      }, {
+        "name" : "forum members",
+        "titles" : "forum members",
+        "datatype" : "string"
+      }, {
+        "name" : "Cameron larvae vol,pl.-fig.",
+        "titles" : "Cameron larvae vol,pl.-fig.",
+        "datatype" : "string"
+      }, {
+        "name" : "Species with larvae illustrated in Vollenhoven",
+        "titles" : "Species with larvae illustrated in Vollenhoven",
+        "datatype" : "string"
+      }, {
+        "name" : "Voll. no.",
+        "titles" : "Voll. no.",
+        "datatype" : "string"
+      }, {
+        "name" : "V.H.Chambers Notebooks",
+        "titles" : "V.H.Chambers Notebooks",
+        "datatype" : "string"
+      }, {
+        "name" : "KJGrearson",
+        "titles" : "KJGrearson",
+        "datatype" : "string"
+      }, {
+        "name" : "Quinlan",
+        "titles" : "Quinlan",
+        "datatype" : "string"
+      }, {
+        "name" : "Zahradnik",
+        "titles" : "Zahradnik",
+        "datatype" : "string"
+      }, {
+        "name" : "Chinery",
+        "titles" : "Chinery",
+        "datatype" : "string"
+      }, {
+        "name" : "Carter & H.",
+        "titles" : "Carter & H.",
+        "datatype" : "string"
+      }, {
+        "name" : "Redfern & Shirley",
+        "titles" : "Redfern & Shirley",
+        "datatype" : "string"
+      }, {
+        "name" : "D.R.Smith",
+        "titles" : "D.R.Smith",
+        "datatype" : "string"
+      }, {
+        "name" : "Denbighs",
+        "titles" : "Denbighs",
+        "datatype" : "string"
+      }, {
+        "name" : "Derbys",
+        "titles" : "Derbys",
+        "datatype" : "string"
+      }, {
+        "name" : "Chesh.",
+        "titles" : "Chesh.",
+        "datatype" : "string"
+      }, {
+        "name" : "Lancs.",
+        "titles" : "Lancs.",
+        "datatype" : "string"
+      }, {
+        "name" : "web link",
+        "titles" : "web link",
+        "datatype" : "string"
+      }, {
+        "name" : "",
+        "titles" : "",
+        "datatype" : "string"
+      }, {
+        "name" : "",
+        "titles" : "",
+        "datatype" : "string"
+      }, {
+        "name" : "",
+        "titles" : "",
+        "datatype" : "string"
+      } ]
+    }
+  } ]
+}
